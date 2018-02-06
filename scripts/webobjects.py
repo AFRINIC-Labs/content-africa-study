@@ -14,9 +14,11 @@ GEOLOC_URL='https://stat.ripe.net/data/geoloc/data.json?resource='
 
 
 def main():
-	f1 = open("../data/domain.csv","r")
-	f2 = open("../data/webobjects.sql", "a+")
-	f3 = open("../data/webobjects.csv", "a+")
+	f1 = open("data/domain.csv","r")
+	f2 = open("data/webobjects.sql", "a+")
+	f3 = open("data/webobjects.csv", "a+")
+	
+	geolocDict = {}	
 
 	for domain in f1:
 	    
@@ -56,7 +58,11 @@ def main():
 
 		    object_size = getPageSize(object_url, MOBILE_USER_AGENT)
 
-		    object_loc_cc = getGeolocation(object_domain)
+		    object_loc_cc = geolocDict.get(object_domain)
+		    
+		    if not object_loc_cc:
+		    	object_loc_cc = getGeolocation(object_domain)
+			geolocDict[object_domain] = object_loc_cc
 
 		    row = "insert into webobjects values ('%s','%s','%s','%s','%s','%s')\n" % (domain.strip(), object_type, object_url, object_domain, object_size, object_loc_cc)
 		    try:	
