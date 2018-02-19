@@ -1,0 +1,16 @@
+create or replace view domain_cost as
+select domain, cc, geoloc_cc, size_mobile, FORMAT(byte_price * size_mobile, 2) as price_mobile, size_desktop, FORMAT(byte_price * size_desktop,2) as price_desktop from  
+(
+select 
+d.domain, 
+d.cc, 
+d.geoloc_cc, 
+d.size_mobile,
+d.size_desktop,
+(select AVG(p.price)/1000000 from pricebasket p where p.cc = d.cc and p.quarter = '2017_Q4') as byte_price
+from domain d 
+where d.size_mobile > 1000
+and d.size_desktop > 1000
+) a;
+
+
