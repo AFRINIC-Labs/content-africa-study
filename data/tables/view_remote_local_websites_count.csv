@@ -1,58 +1,58 @@
-"cc",total,localized,remote
-"AO",30,1,29
-"BF",21,2,19
-"BI",15,1,14
-"BJ",27,0,27
-"BW",15,4,11
-"CD",27,0,27
-"CF",7,0,7
-"CG",10,0,10
-"CI",25,0,25
-"CM",29,1,28
-"CV",10,0,10
-"DJ",6,2,4
-"DZ",129,9,120
-"EG",36,5,31
-"EH",10,0,10
-"ER",13,0,13
-"ET",28,1,27
-"GA",8,0,8
-"GH",48,1,47
-"GM",10,1,9
-"GQ",23,0,23
-"GW",4,0,4
-"KE",25,1,24
-"KM",5,0,5
-"LR",20,0,20
-"LS",6,2,4
-"LY",12,2,10
-"MA",42,6,36
-"MG",14,1,13
-"ML",10,1,9
-"MR",7,1,6
-"MU",11,1,10
-"MW",20,2,18
-"MZ",8,3,5
-"NA",15,2,13
-"NE",5,0,5
-"NG",190,0,190
-"RE",6,0,6
-"RW",8,1,7
-"SC",5,1,4
-"SD",12,1,11
-"SH",6,0,6
-"SL",34,0,34
-"SN",27,0,27
-"SO",24,1,23
-"SS",16,0,16
-"ST",4,0,4
-"SZ",3,2,1
-"TD",7,0,7
-"TG",23,1,22
-"TN",21,3,18
-"TZ",26,1,25
-"UG",32,0,32
-"YT",6,0,6
-"ZA",134,63,71
-"ZM",42,2,40
-"ZW",88,0,88
+"cc","countryname","total","localized","remote"
+"AO","Angola",30,1,29
+"BF","Burkina Faso",21,2,19
+"BI","Burundi",15,1,14
+"BJ","Benin",27,0,27
+"BW","Botswana",15,4,11
+"CD","Congo (Democratic Republic of the)",27,0,27
+"CF","Central African Republic",7,0,7
+"CG","Congo",10,0,10
+"CI","Côte d'Ivoire",25,0,25
+"CM","Cameroon",29,1,28
+"CV","Cabo Verde",10,0,10
+"DJ","Djibouti",6,2,4
+"DZ","Algeria",129,9,120
+"EG","Egypt",36,5,31
+"EH","Western Sahara",10,0,10
+"ER","Eritrea",13,0,13
+"ET","Ethiopia",28,1,27
+"GA","Gabon",8,0,8
+"GH","Ghana",48,1,47
+"GM","Gambia",10,1,9
+"GQ","Equatorial Guinea",23,0,23
+"GW","Guinea-Bissau",4,0,4
+"KE","Kenya",25,1,24
+"KM","Comoros",5,0,5
+"LR","Liberia",20,0,20
+"LS","Lesotho",6,2,4
+"LY","Libya",12,2,10
+"MA","Morocco",42,6,36
+"MG","Madagascar",14,1,13
+"ML","Mali",10,1,9
+"MR","Mauritania",7,1,6
+"MU","Mauritius",11,1,10
+"MW","Malawi",20,2,18
+"MZ","Mozambique",8,3,5
+"NA","Namibia",15,2,13
+"NE","Niger",5,0,5
+"NG","Nigeria",190,0,190
+"RE","Réunion",6,0,6
+"RW","Rwanda",8,1,7
+"SC","Seychelles",5,1,4
+"SD","Sudan",12,1,11
+"SH","Saint Helena",6,0,6
+"SL","Sierra Leone",34,0,34
+"SN","Senegal",27,0,27
+"SO","Somalia",24,1,23
+"SS","South Sudan",16,0,16
+"ST","Sao Tome and Principe",4,0,4
+"SZ","Swaziland",3,2,1
+"TD","Chad",7,0,7
+"TG","Togo",23,1,22
+"TN","Tunisia",21,3,18
+"TZ","United Republic of Tanzania",26,1,25
+"UG","Uganda",32,0,32
+"YT","Mayotte",6,0,6
+"ZA","South Africa",134,63,71
+"ZM","Zambia",42,2,40
+"ZW","Zimbabwe",88,0,88
