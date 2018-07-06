@@ -1,3 +1,6 @@
 # ignore all logs
 *.log
 .DS_Store
+.ipynb_checkpoints
+api.key
+archive
